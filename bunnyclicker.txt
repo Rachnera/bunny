@@ -25,7 +25,7 @@ Buttons
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
 		icon:stuff/bunny.png
 		no text
-		class:bigButton hasFlares
+		class:bigButton hasFlares niceBunny
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
@@ -37,7 +37,7 @@ Buttons
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
 		icon:stuff/bunny.png
 		no text
-		class:bigButton hasFlares
+		class:bigButton hasFlares evilBunny
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
