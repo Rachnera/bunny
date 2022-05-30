@@ -29,18 +29,6 @@ Buttons
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
-	*bunnyButton
-		name:Make a bunny
-		desc:Click this little bunny to get more bunnies!
-		on click:anim icon wobble
-		on click:yield 1 bunny
-		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:stuff/bunny.png
-		no text
-		class:bigButton hasFlares
-		icon class:shadowed
-		tooltip origin:bottom
-		tooltip class:red
 		
 Resources
 	*bunny|bunnies
